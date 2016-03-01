@@ -9,3 +9,11 @@
     2. 油罐火灾
     
 计算的是上述两种情况下的的火灾剂用量和供水压力的计算
+
+
+以下是设计思路图：
+    ![](https://github.com/hohoTT/fireWork_handle_app/blob/master/image/img/1.jpg)
+    ![](https://github.com/hohoTT/fireWork_handle_app/blob/master/image/img/2.jpg)
+    ![](https://github.com/hohoTT/fireWork_handle_app/blob/master/image/img/3.jpg)
+    ![](https://github.com/hohoTT/fireWork_handle_app/blob/master/image/img/4.jpg)
+    ![](https://github.com/hohoTT/fireWork_handle_app/blob/master/image/img/5.jpg)
