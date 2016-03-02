@@ -107,7 +107,7 @@ public class olican_fire_water extends Activity {
 							// 油罐周长
 							double c = 3.14 * olican_diameter;
 							// 冷却枪支的数量(使用强制转换的形式，将double类型转化为int类型)
-							double x = c / 12.5;
+							double x = c / 9.375;
 							
 							// 计算得出每秒用水量的数值
 							double olican_fire_water_result = x * 7.5;

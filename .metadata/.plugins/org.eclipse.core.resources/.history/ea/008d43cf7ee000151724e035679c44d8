@@ -104,26 +104,7 @@ public class olican_fire_water extends Activity {
 						}
 						// 如果是浮顶油罐的情况
 						else if(olican_type == 2){
-							// 油罐周长
-							double c = 3.14 * olican_diameter;
-							// 冷却枪支的数量(使用强制转换的形式，将double类型转化为int类型)
-							double x = c / 12.5;
-							
-							// 计算得出每秒用水量的数值
-							double olican_fire_water_result = x * 7.5;
-							
-							// 计算10吨消防车可持续灭火的时间
-							double olican_fire_time = 10000 / olican_fire_water_result;
-							
-							// 显式传递运算的结果
-							Intent intent = new Intent(olican_fire_water.this, olican_fire_water_result.class);
-							
-							// 传递每秒用水量的数值
-							intent.putExtra("olican_fire_water_result", olican_fire_water_result);
-							// 传递10吨消防车可持续灭火的时间
-							intent.putExtra("olican_fire_time", olican_fire_time);
 
-							startActivity(intent);
 						}
 						
 					} catch (Exception e) {
