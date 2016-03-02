@@ -42,6 +42,12 @@
             
         </activity>
         
+        <activity 
+            android:name="com.wt.fire_agent.normal_fire_result"
+            android:label="@string/normal_fire_result">
+            
+        </activity>
+        
     </application>
 
 </manifest>

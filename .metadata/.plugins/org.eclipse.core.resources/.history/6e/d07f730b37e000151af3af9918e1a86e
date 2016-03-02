@@ -1,0 +1,16 @@
+package com.wt.fire_agent;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+// 一般火灾中计算水剂的结果类，即呈现
+public class normal_fire_result extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		
+	}
+	
+}
