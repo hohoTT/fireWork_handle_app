@@ -34,23 +34,6 @@ public class fire_agent extends Activity {
 			}
 		});
 		
-		
-		// 油罐火灾情况下的计算
-		Button btu_oilcan_fire = (Button) findViewById(R.id.btu_oilcan_fire);
-		
-		// 油罐火灾情况下的处理事件
-		btu_oilcan_fire.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View arg0) {
-				// TODO Auto-generated method stub
-				// 实现到油罐火灾选择处理项目页面的跳转
-				Intent intent = new Intent(fire_agent.this, oilcan_fire.class);
-				startActivity(intent);
-				
-			}
-		});
-		
 	}
 	
 }

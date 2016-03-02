@@ -1,8 +1,0 @@
-package com.wt.fire_agent;
-
-import android.app.Activity;
-
-// 一般火灾中计算水剂的处理类
-public class normal_fire_handle extends Activity {
-
-}
