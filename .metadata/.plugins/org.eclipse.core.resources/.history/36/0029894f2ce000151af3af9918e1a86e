@@ -1,0 +1,41 @@
+package com.wt.firework_handle_app;
+
+import com.wt.firework_handle_app.R;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+// 火灾现场计算类
+public class fire_calculate extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+        setContentView(R.layout.fire_calculate);
+        
+        // 火灾剂用量的处理
+        Button btu_fire_agent = (Button) findViewById(R.id.btu_fire_agent);
+        
+        // 火灾剂用量计算处理事件
+        btu_fire_agent.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				// 实现页面的跳转
+				Intent intent = new Intent(fire_calculate.this, fire_agent.class);
+				startActivity(intent);
+			}
+		});
+        
+        // 供水压力计算的处理
+        Button btu_water_power = (Button) findViewById(R.id.btu_water_power);
+        
+	}
+	
+}

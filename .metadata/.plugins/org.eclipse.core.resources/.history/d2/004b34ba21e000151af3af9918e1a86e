@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+        <Button 
+	    android:id="@+id/btu_fire_calculate"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/btu_fire_calculate" /> 
+    </LinearLayout>
+    
+	   
+	    
+	<Button 
+	    android:id="@+id/btu_fire_plan"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/btu_fire_plan" />
+
+    
+</LinearLayout>
+

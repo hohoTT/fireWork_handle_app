@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">fireWork_handle_app</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btu_fire_calculate">现场计算</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

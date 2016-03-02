@@ -1,0 +1,32 @@
+package com.wt.firework_handle_app;
+
+import android.R;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+// 火灾现场计算类
+public class fire_calculate extends Activity {
+
+	@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        // 火灾现场计算的处理事件
+        Button btu_fire_calculate = (Button) findViewById(R.id.btu_fire_calculate);
+        
+        btu_fire_calculate.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View view) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+        
+    }
+	
+}

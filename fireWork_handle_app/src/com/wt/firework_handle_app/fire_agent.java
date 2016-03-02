@@ -1,0 +1,17 @@
+package com.wt.firework_handle_app;
+
+import com.wt.firework_handle_app.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class fire_agent extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.fire_agent);
+	}
+	
+}
