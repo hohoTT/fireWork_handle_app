@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:id="@+id/olican_diameter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+	    android:layout_margin="30dp"
+        android:hint="@string/olican_diameter" />
+    
+    <RadioGroup 
+        android:id="@+id/olican_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <RadioButton 
+	        android:id="@+id/olican_type_fixed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+        
+    </RadioGroup>
+    
+    <Button 
+        android:id="@+id/btu_normal_fire_send"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+	    android:layout_margin="30dp"
+	    android:padding="20dp"
+        android:layout_height="wrap_content"
+        
+        android:text="@string/btn_send" />
+    
+    
+</LinearLayout>

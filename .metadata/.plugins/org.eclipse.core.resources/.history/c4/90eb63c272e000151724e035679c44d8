@@ -1,0 +1,8 @@
+package com.wt.fire_agent;
+
+import android.app.Activity;
+
+// 创建油罐火灾情况下冷却用水的
+public class olican_fire_water_result extends Activity {
+
+}

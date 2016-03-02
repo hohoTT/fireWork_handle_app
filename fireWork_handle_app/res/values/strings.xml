@@ -15,6 +15,10 @@
     <string name="btu_water_power">供水压力计算</string>
     <string name="btu_oilcan_fire">油罐火灾计算</string>
     <string name="fire_area">请输入过火面积</string>
+    <string name="olican_diameter">请输入油罐直径</string>
+    <string name="text_olican_type">请选择您需要计算的油罐类型:</string>
+    <string name="olican_type_fixed">固定顶油罐</string>
+    <string name="olican_type_drift">浮顶油罐</string>
     
     
     <string name="text_water">一般火灾中每秒的用水量为：</string>

@@ -13,6 +13,8 @@ public class olican_fire_water extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.olican_fire_water);
 	
+		
+		
 	}
 	
 }

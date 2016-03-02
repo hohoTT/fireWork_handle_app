@@ -1,0 +1,8 @@
+package com.wt.fire_agent;
+
+import android.app.Activity;
+
+// ´´½¨
+public class olican_fire_water_result extends Activity {
+
+}
