@@ -45,7 +45,7 @@ public class normal_fire_result extends Activity {
 		
 		// 将每秒用水量的数值传入到界面中text_fire_time_result的TextView中，设置其内容
 		TextView text_fire_time_result = (TextView) findViewById(R.id.text_fire_time_result);
-		text_fire_time_result.setText(df_water_result.format(fire_time) + " s");
+		text_fire_time_result.setText(df_water_result.format(fire_time) + " S");
 		
 	}
 	
