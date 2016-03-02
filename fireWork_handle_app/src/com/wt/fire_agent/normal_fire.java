@@ -47,11 +47,24 @@ public class normal_fire extends Activity {
 				else {
 					// 获取有效的过火面积并转换成double类型的数值
 					try {
+						// 过火面积
 						double fire_area = Double.valueOf(str_area);
+						
+						// 计算水枪的数量x
+						double x = fire_area / 37.5;
+						// 计算每秒的用水量
+						double water_result = x * 6.5;
+						// 计算10吨消防车可持续灭火的时间
+						double fire_time = 10000 / water_result;
 						
 						// 显式传递运算的结果
 						Intent intent = new Intent(normal_fire.this, normal_fire_result.class);
-						intent.putExtra("fire_area", fire_area);
+						
+						// 传递每秒用水量的数值
+						intent.putExtra("water_result", water_result);
+						// 传递10吨消防车可持续灭火的时间
+						intent.putExtra("fire_time", fire_time);
+
 						startActivity(intent);
 						
 //						 Log.d("fire_area", str_area);

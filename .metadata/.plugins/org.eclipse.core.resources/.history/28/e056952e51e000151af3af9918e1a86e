@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">fireWork_handle_app</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    <string name="btu_fire_calculate">现场计算</string>
+    <string name="btu_fire_plan">火灾预案</string>
+    <string name="btu_fire_agent">火灾剂用量计算</string>
+    <string name="btu_water_power">供水压力计算</string>
+    <string name="btu_normal_fire">一般火灾计算</string>
+    <string name="btu_oilcan_fire">油罐火灾计算</string>
+    <string name="fire_area">请输入过火面积</string>
+    
+    
+    <string name="normal_fire_result">一般火灾用水量计算结果</string>
+    <string name="text_water">一般火灾中每秒的用水量为：</string>
+    <string name="text_water">10吨消防车可持续灭火的时间为：</string>
+    
+    
+    <string name="btn_send">提交</string>
+    
+
+</resources>

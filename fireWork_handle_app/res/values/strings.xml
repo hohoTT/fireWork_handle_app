@@ -16,6 +16,8 @@
     
     
     <string name="normal_fire_result">一般火灾用水量计算结果</string>
+    <string name="text_water">一般火灾中每秒的用水量为：</string>
+    <string name="text_fire_time">10吨消防车可持续灭火的时间为：</string>
     
     
     <string name="btn_send">提交</string>
