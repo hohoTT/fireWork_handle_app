@@ -1,0 +1,23 @@
+package com.wt.fire_agent;
+
+import com.example.firework_handle_app.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+
+public class oilcan_fire extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.oilcan_fire);
+		
+		// 冷却用水量的处理
+		Button btu_olican_fire_water = (Button) findViewById(R.id.btu_olican_fire_water);
+		
+		
+	}
+	
+}

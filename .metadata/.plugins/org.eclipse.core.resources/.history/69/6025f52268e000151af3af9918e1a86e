@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+	<Button 
+        android:id="@+id/btu_olican_fire_water"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="30dp"
+	    android:text="@string/btu_olican_fire_water" />
+    
+    <Button 
+        android:id="@+id/btu_water_power"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="30dp"
+	    android:text="@string/btu_water_power" />
+    
+    
+</LinearLayout>

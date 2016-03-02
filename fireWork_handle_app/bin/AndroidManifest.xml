@@ -26,25 +26,37 @@
         
         <activity 
             android:name="com.wt.firework_handle_app.fire_calculate"
-            android:label="@string/btu_fire_calculate">
+            android:label="@string/fire_calculate">
             
         </activity>
         
         <activity 
             android:name="com.wt.fire_agent.fire_agent"
-            android:label="@string/btu_fire_agent">
+            android:label="@string/fire_agent">
             
         </activity>
         
         <activity 
             android:name="com.wt.fire_agent.normal_fire"
-            android:label="@string/btu_normal_fire">
+            android:label="@string/normal_fire">
             
         </activity>
         
         <activity 
             android:name="com.wt.fire_agent.normal_fire_result"
             android:label="@string/normal_fire_result">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.fire_agent.oilcan_fire"
+            android:label="@string/oilcan_fire">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.fire_agent.olican_fire_water"
+            android:label="@string/olican_fire_water">
             
         </activity>
         

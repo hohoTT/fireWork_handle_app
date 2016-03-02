@@ -10,14 +10,14 @@
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:layout_margin="30dp"
-	    android:text="@string/btu_normal_fire" />    
+	    android:text="@string/normal_fire" />    
 	    
 	<Button 
 	    android:id="@+id/btu_oilcan_fire"
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:layout_margin="30dp"
-	    android:text="@string/btu_oilcan_fire" />
+	    android:text="@string/oilcan_fire" />
     
     
 </LinearLayout>
