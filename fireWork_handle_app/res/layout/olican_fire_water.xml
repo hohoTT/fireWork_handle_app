@@ -28,14 +28,11 @@
         android:layout_gravity="center_horizontal" >
         
         <RadioButton 
-	        android:id="@+id/olican_type_fixed"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:checked="true" 
 	        android:text="@string/olican_type_fixed" />
         
         <RadioButton 
-	        android:id="@+id/olican_type_drift"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:text="@string/olican_type_drift" />

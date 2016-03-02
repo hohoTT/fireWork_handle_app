@@ -1,0 +1,79 @@
+package com.wt.fire_agent;
+
+import com.example.firework_handle_app.R;
+
+import android.app.Activity;	
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RadioGroup;
+import android.widget.RadioGroup.OnCheckedChangeListener;
+import android.widget.Toast;
+
+public class olican_fire_water extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.olican_fire_water);
+		
+		// 用radioGroup来判断用户选择的油罐类型
+		RadioGroup olican_type = (RadioGroup) findViewById(R.id.olican_type);
+		
+		// 为radioGroup添加监听事件，用来监听组件内部的事件响应
+		olican_type.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+			
+			@Override
+			public void onCheckedChanged(RadioGroup group, int checkedId) {
+				// TODO Auto-generated method stub
+				// 在这个函数里面用来改变选择的radioButton的数值，以及与其值相关的任何操作
+				
+			}
+		});
+		
+	
+		// 提交按钮实现油罐火灾情况下冷却用水量的传递以及计算
+		Button btu_olican_fire_water_send = (Button) findViewById(R.id.btu_olican_fire_water_send);
+		
+		// 提交按钮实现油罐火灾情况下冷却用水量的传递以及计算的处理事件
+		btu_olican_fire_water_send.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				// 获取界面中用户选择的油罐直径的数值
+				EditText edit_olican_diameter = (EditText) findViewById(R.id.olican_diameter);
+				
+				String str_olican_diameter = edit_olican_diameter.getText().toString();
+				
+				// 对获取到的字符串进行判断并计算的处理
+				// 如果得到的为空，即用户没有在文本框中进行输入，则使用Toast提示用户进行输入
+				if("".equals(str_olican_diameter)){
+					Toast.makeText(olican_fire_water.this, "油罐直径不可为空",
+							Toast.LENGTH_SHORT).show();
+				}
+				else{
+					// 获取有效的油罐直径并转换成double类型的数值
+					try {
+						// 油罐直径
+						double olican_diameter = Double.valueOf(str_olican_diameter);
+						
+						// 以下的计算根据用户选择的油罐类型进行计算
+						
+						
+						// 计算
+						
+					} catch (Exception e) {
+						// TODO: handle exception
+						// 获取不为数字类型的异常，以Toast的形式抛出给用户提示信息
+					}
+				}
+			}
+		});
+		
+	}
+	
+}

@@ -1,0 +1,35 @@
+package com.wt.fire_agent;
+
+import com.example.firework_handle_app.R;
+
+import android.app.Activity;	
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class olican_fire_water extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.olican_fire_water);
+	
+		// 提交按钮实现油罐火灾情况下冷却用水量的传递以及计算
+		Button btu_olican_fire_water_send = (Button) findViewById(R.id.btu_olican_fire_water_send);
+		
+		// 提交按钮实现油罐火灾情况下冷却用水量的传递以及计算的处理事件
+		btu_olican_fire_water_send.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				// 获取界面中用户选择的
+				
+			}
+		});
+		
+	}
+	
+}

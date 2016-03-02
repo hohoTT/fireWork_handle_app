@@ -21,7 +21,7 @@ public class normal_fire extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.normal_fire_water);
 
-		// 提交按钮实现将过火面积进行传递
+		// 提交按钮实现将过火面积进行传递并进行计算
 		Button btu_normal_fire_send = (Button) findViewById(R.id.btu_normal_fire_send);
 
 		// 提交按钮的处理事件

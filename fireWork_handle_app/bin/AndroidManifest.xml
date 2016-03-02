@@ -60,6 +60,12 @@
             
         </activity>
         
+        <activity 
+            android:name="com.wt.fire_agent.olican_fire_water_result"
+            android:label="@string/olican_fire_water">
+            
+        </activity>
+        
     </application>
 
 </manifest>

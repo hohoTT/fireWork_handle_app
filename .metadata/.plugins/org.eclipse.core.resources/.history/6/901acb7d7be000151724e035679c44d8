@@ -1,0 +1,21 @@
+package com.wt.fire_agent;
+
+import com.example.firework_handle_app.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+// 创建油罐火灾情况下冷却用水的结果显示
+public class olican_fire_water_result extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.olican_fire_water_result);
+		
+		// 获取
+		
+	}
+	
+}
