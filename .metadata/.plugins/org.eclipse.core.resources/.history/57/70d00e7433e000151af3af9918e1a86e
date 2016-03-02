@@ -1,0 +1,24 @@
+package com.wt.fire_agent;
+
+import com.wt.firework_handle_app.R;
+import com.wt.firework_handle_app.R.layout;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+
+public class fire_agent extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.fire_agent);
+		
+		// “ª∞„ª‘÷º∆À„
+		Button btu_normal_fire = (Button) findViewById(R.id.btu_normal_fire);
+		
+		
+	}
+	
+}

@@ -227,6 +227,8 @@ int drawable abc_textfield_searchview_holo_light 0x7f020054
 int drawable abc_textfield_searchview_right_holo_dark 0x7f020055
 int drawable abc_textfield_searchview_right_holo_light 0x7f020056
 int drawable ic_launcher 0x7f020057
+int drawable left 0x7f020058
+int drawable right 0x7f020059
 int id action_bar 0x7f05001c
 int id action_bar_activity_content 0x7f050015
 int id action_bar_container 0x7f05001b
@@ -238,7 +240,7 @@ int id action_context_bar 0x7f05001d
 int id action_menu_divider 0x7f050016
 int id action_menu_presenter 0x7f050017
 int id action_mode_close_button 0x7f050024
-int id action_settings 0x7f050042
+int id action_settings 0x7f050044
 int id activity_chooser_view_content 0x7f050025
 int id always 0x7f05000b
 int id beginning 0x7f050011
@@ -246,6 +248,7 @@ int id btu_fire_agent 0x7f050040
 int id btu_fire_calculate 0x7f05003c
 int id btu_fire_plan 0x7f05003d
 int id btu_normal_fire 0x7f05003e
+int id btu_normal_fire_send 0x7f050043
 int id btu_oilcan_fire 0x7f05003f
 int id btu_water_power 0x7f050041
 int id checkbox 0x7f05002d
@@ -258,6 +261,7 @@ int id edit_query 0x7f050030
 int id end 0x7f050013
 int id expand_activities_button 0x7f050026
 int id expanded_menu 0x7f05002c
+int id fire_area 0x7f050042
 int id home 0x7f050014
 int id homeAsUp 0x7f050005
 int id icon 0x7f05002a
@@ -322,7 +326,9 @@ int layout activity_main 0x7f030017
 int layout fire_agent 0x7f030018
 int layout fire_calculate 0x7f030019
 int layout fire_plan 0x7f03001a
-int layout support_simple_spinner_dropdown_item 0x7f03001b
+int layout normal_fire_water 0x7f03001b
+int layout support_simple_spinner_dropdown_item 0x7f03001c
+int layout water_power 0x7f03001d
 int menu main 0x7f0c0000
 int string abc_action_bar_home_description 0x7f0a0001
 int string abc_action_bar_up_description 0x7f0a0002
@@ -339,12 +345,14 @@ int string abc_shareactionprovider_share_with 0x7f0a000c
 int string abc_shareactionprovider_share_with_application 0x7f0a000b
 int string action_settings 0x7f0a000f
 int string app_name 0x7f0a000d
+int string btn_send 0x7f0a0017
 int string btu_fire_agent 0x7f0a0012
 int string btu_fire_calculate 0x7f0a0010
 int string btu_fire_plan 0x7f0a0011
 int string btu_normal_fire 0x7f0a0014
 int string btu_oilcan_fire 0x7f0a0015
 int string btu_water_power 0x7f0a0013
+int string fire_area 0x7f0a0016
 int string hello_world 0x7f0a000e
 int style AppBaseTheme 0x7f0b0083
 int style AppTheme 0x7f0b0084

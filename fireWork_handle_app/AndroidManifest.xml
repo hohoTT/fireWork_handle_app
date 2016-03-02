@@ -31,8 +31,14 @@
         </activity>
         
         <activity 
-            android:name="com.wt.firework_handle_app.fire_agent"
+            android:name="com.wt.fire_agent.fire_agent"
             android:label="@string/btu_fire_agent">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.fire_agent.normal_fire"
+            android:label="@string/btu_normal_fire">
             
         </activity>
         
