@@ -72,6 +72,12 @@
             
         </activity>
         
+        <activity 
+            android:name="com.wt.fire_agent.oilcan_fire_foam_result"
+            android:label="@string/olican_fire_foam">
+            
+        </activity>
+        
     </application>
 
 </manifest>

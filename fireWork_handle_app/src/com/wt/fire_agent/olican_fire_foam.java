@@ -3,6 +3,7 @@ package com.wt.fire_agent;
 import com.example.firework_handle_app.R;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -45,17 +46,33 @@ public class olican_fire_foam extends Activity {
 					Toast.makeText(olican_fire_foam.this, "油罐的燃烧面积不可为空",
 							Toast.LENGTH_SHORT).show();
 				}
-				else{
-					
-				}
-				
 				//  如果用户没有输入流量就按下按钮，则提示用户输入流量
-				if("".equals(str_olican_fire_foam_flow)){
+				else if("".equals(str_olican_fire_foam_flow)){
 					Toast.makeText(olican_fire_foam.this, "流量不可为空",
 							Toast.LENGTH_SHORT).show();
 				}
+				// 将用户输入的有效的油罐的燃烧面积以及流量转换成double类型的数值
 				else{
+					// 获取有效的油罐的燃烧面积以及流量并转换成double类型的数值
+					double olican_fire_foam_area = Double.valueOf(str_olican_fire_foam_area);
+
+					// 获取有效的流量并转换成double类型的数值
+					double olican_fire_foam_flow = Double.valueOf(str_olican_fire_foam_flow);
 					
+					// 计算该油罐火灾的用水量
+					double olican_fire_foam_water_result = olican_fire_foam_area * 0.94;
+					
+					// 计算该油罐火灾的泡沫原液用量
+					double olican_fire_foam_stoste_result = olican_fire_foam_area * 0.06;
+					
+					// 显式的传递计算的数值
+					Intent intent = new Intent(olican_fire_foam.this, oilcan_fire_foam_result.class);
+					// 传递计算的该油罐火灾的用水量
+					intent.putExtra("olican_fire_foam_water_result", olican_fire_foam_water_result);
+					
+					// 传递计算的该油罐火灾的泡沫原液用量
+					intent.putExtra("olican_fire_foam_stoste_result", olican_fire_foam_stoste_result);
+					startActivity(intent);
 				}
 			}
 		});
