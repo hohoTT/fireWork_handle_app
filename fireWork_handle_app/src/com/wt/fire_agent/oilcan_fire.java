@@ -32,6 +32,20 @@ public class oilcan_fire extends Activity {
 			}
 		});
 		
+		// 泡沫用量计算的处理
+		Button btu_olican_fire_foam = (Button) findViewById(R.id.btu_olican_fire_foam);
+		
+		// 泡沫用量计算的时间处理
+		btu_olican_fire_foam.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				// 实现到泡沫用量计算处理类的跳转
+				Intent intent = new Intent(oilcan_fire.this, olican_fire_foam.class);
+				startActivity(intent);
+			}
+		});
 	}
 	
 }

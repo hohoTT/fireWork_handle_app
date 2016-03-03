@@ -1,0 +1,22 @@
+package com.wt.fire_agent;
+
+import com.example.firework_handle_app.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+
+public class olican_fire_foam extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.olican_fire_foam);
+		
+		// 提交按钮实现将过火面积进行传递并进行计算
+		Button btu_olican_fire_foam_send = (Button) findViewById(R.id.btu_olican_fire_foam_send);
+				
+	}
+	
+}

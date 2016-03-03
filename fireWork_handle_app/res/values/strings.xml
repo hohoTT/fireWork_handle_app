@@ -20,6 +20,8 @@
     <string name="text_olican_type">请选择您需要计算的油罐类型:</string>
     <string name="olican_type_fixed">固定顶油罐</string>
     <string name="olican_type_drift">浮顶油罐</string>
+    <string name="olican_fire_foam_area">请输入油罐的燃烧面积</string>
+    <string name="olican_fire_foam_flow">请输入流量</string>
     
     
     <string name="text_water">一般火灾中每秒的用水量为：</string>

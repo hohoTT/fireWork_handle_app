@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="android.widget.Button"/>
-<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.R"/>
 <fullyQualifiedTypeName name="android.R.layout"/>
+<fullyQualifiedTypeName name="com.wt.firework_handle_app.R.id"/>
+<fullyQualifiedTypeName name="com.wt.fire_agent.fire_agent"/>
+<fullyQualifiedTypeName name="com.wt.fire_agent.oilcan_fire"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="android.widget.RadioGroup"/>
+<fullyQualifiedTypeName name="com.example.firework_handle_app.R.id"/>
+<fullyQualifiedTypeName name="android.widget.RadioGroup.OnCheckedChangeListener"/>
+<fullyQualifiedTypeName name="android.widget.RadioButton"/>
+<fullyQualifiedTypeName name="com.wt.fire_agent.olican_fire_water"/>
+<fullyQualifiedTypeName name="com.wt.fire_agent.olican_fire_water_result"/>
 <fullyQualifiedTypeName name="com.example.firework_handle_app.R"/>
 <fullyQualifiedTypeName name="com.example.firework_handle_app.R.layout"/>
 <fullyQualifiedTypeName name="android.content.Intent"/>
-<fullyQualifiedTypeName name="com.wt.fire_agent.oilcan_fire"/>
 </qualifiedTypeNameHistroy>
