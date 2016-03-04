@@ -1,0 +1,9 @@
+package com.wt.water_power;
+
+import android.app.Activity;
+
+public class water_power_fire_building_result extends Activity {
+
+	
+	
+}

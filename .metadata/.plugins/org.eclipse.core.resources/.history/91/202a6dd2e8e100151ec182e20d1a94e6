@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        
+        android:id="@+id/water_power_fire_building_result_65"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="40dp"
+	    android:orientation="horizontal">
+	    
+        <TextView 
+        android:id="@+id/text_water_power_fire_building__65_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="@string/text_water" />
+        
+        <TextView 
+        android:id="@+id/text_water_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        
+        android:id="@+id/water_power_fire_building_result_80"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="40dp"
+	    android:orientation="horizontal">
+	    
+        <TextView 
+        android:id="@+id/text_fire_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="@string/text_fire_time" />
+        
+        <TextView 
+        android:id="@+id/text_fire_time_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,23 @@
+package com.wt.water_power;
+
+import com.example.firework_handle_app.R;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+
+public class water_power_fire_building_result extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.water_power_fire_building_result);
+		
+		// 获取water_power_fire_building处理类中传入的数值
+		Intent intent = getIntent();
+		
+		
+	}
+	
+}

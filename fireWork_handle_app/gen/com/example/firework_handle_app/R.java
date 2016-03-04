@@ -997,7 +997,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050064;
+        public static final int action_settings=0x7f05006b;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1078,6 +1078,10 @@ containing a value of this type.
         public static final int text_oilcan_fire_water_result=0x7f05005a;
         public static final int text_olican_type=0x7f050056;
         public static final int text_water=0x7f050043;
+        public static final int text_water_power_fire_building_65=0x7f050066;
+        public static final int text_water_power_fire_building_65_result=0x7f050067;
+        public static final int text_water_power_fire_building_80=0x7f050069;
+        public static final int text_water_power_fire_building_80_result=0x7f05006a;
         public static final int text_water_result=0x7f050044;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
@@ -1086,6 +1090,9 @@ containing a value of this type.
         public static final int water_power_fire_building_count_feeder=0x7f050061;
         public static final int water_power_fire_building_count_feeder_band=0x7f050063;
         public static final int water_power_fire_building_count_groundline_band=0x7f050062;
+        public static final int water_power_fire_building_height=0x7f050064;
+        public static final int water_power_fire_building_result_65=0x7f050065;
+        public static final int water_power_fire_building_result_80=0x7f050068;
         public static final int withText=0x7f05000c;
     }
     public static final class integer {
@@ -1152,6 +1159,7 @@ containing a value of this type.
         public static final int water_power=0x7f030023;
         public static final int water_power_fire=0x7f030024;
         public static final int water_power_fire_building=0x7f030025;
+        public static final int water_power_fire_building_result=0x7f030026;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -1197,41 +1205,45 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-        public static final int action_settings=0x7f0a0030;
+        public static final int action_settings=0x7f0a0034;
         public static final int app_name=0x7f0a000d;
-        public static final int btn_send=0x7f0a002e;
-        public static final int btu_oilcan_fire=0x7f0a001e;
-        public static final int btu_water_power=0x7f0a001d;
+        public static final int btn_send=0x7f0a0032;
+        public static final int btu_oilcan_fire=0x7f0a001f;
+        public static final int btu_water_power=0x7f0a001e;
         public static final int fire_agent=0x7f0a000f;
-        public static final int fire_area=0x7f0a001f;
+        public static final int fire_area=0x7f0a0020;
         public static final int fire_calculate=0x7f0a000e;
         public static final int fire_plan=0x7f0a0010;
-        public static final int hello_world=0x7f0a002f;
+        public static final int hello_world=0x7f0a0033;
         public static final int normal_fire=0x7f0a0011;
         public static final int normal_fire_result=0x7f0a0012;
         public static final int oilcan_fire=0x7f0a0013;
         public static final int oilcan_fire_foam_result=0x7f0a0017;
-        public static final int olican_diameter=0x7f0a0020;
+        public static final int olican_diameter=0x7f0a0021;
         public static final int olican_fire_foam=0x7f0a0015;
-        public static final int olican_fire_foam_area=0x7f0a0024;
-        public static final int olican_fire_foam_flow=0x7f0a0025;
+        public static final int olican_fire_foam_area=0x7f0a0025;
+        public static final int olican_fire_foam_flow=0x7f0a0026;
         public static final int olican_fire_water=0x7f0a0014;
         public static final int olican_fire_water_result=0x7f0a0016;
-        public static final int olican_type_drift=0x7f0a0023;
-        public static final int olican_type_fixed=0x7f0a0022;
-        public static final int text_fire_time=0x7f0a002a;
-        public static final int text_oilcan_fire_foam_water=0x7f0a002c;
-        public static final int text_oilcan_fire_form_stoste=0x7f0a002d;
-        public static final int text_oilcan_fire_water=0x7f0a002b;
-        public static final int text_olican_type=0x7f0a0021;
-        public static final int text_water=0x7f0a0029;
+        public static final int olican_type_drift=0x7f0a0024;
+        public static final int olican_type_fixed=0x7f0a0023;
+        public static final int text_fire_time=0x7f0a002c;
+        public static final int text_oilcan_fire_foam_water=0x7f0a002e;
+        public static final int text_oilcan_fire_form_stoste=0x7f0a002f;
+        public static final int text_oilcan_fire_water=0x7f0a002d;
+        public static final int text_olican_type=0x7f0a0022;
+        public static final int text_water=0x7f0a002b;
+        public static final int text_water_power_fire_building_65=0x7f0a0030;
+        public static final int text_water_power_fire_building_80=0x7f0a0031;
         public static final int water__power_pump=0x7f0a001a;
         public static final int water_power=0x7f0a0018;
         public static final int water_power_fire=0x7f0a0019;
         public static final int water_power_fire_building=0x7f0a001b;
-        public static final int water_power_fire_building_count_feeder=0x7f0a0026;
-        public static final int water_power_fire_building_count_feeder_band=0x7f0a0028;
-        public static final int water_power_fire_building_count_groundline_band=0x7f0a0027;
+        public static final int water_power_fire_building_count_feeder=0x7f0a0027;
+        public static final int water_power_fire_building_count_feeder_band=0x7f0a0029;
+        public static final int water_power_fire_building_count_groundline_band=0x7f0a0028;
+        public static final int water_power_fire_building_height=0x7f0a002a;
+        public static final int water_power_fire_building_result=0x7f0a001d;
         public static final int water_power_fire_oilcan=0x7f0a001c;
     }
     public static final class style {

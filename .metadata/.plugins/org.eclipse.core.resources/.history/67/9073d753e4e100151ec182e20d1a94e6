@@ -1,0 +1,34 @@
+package com.wt.water_power;
+
+import com.example.firework_handle_app.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+// 建筑火灾处理类
+public class water_power_fire_building extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.water_power_fire_building);
+		
+		// 提交按钮实现将过火面积进行传递并进行计算
+		Button btu_water_power_fire_building = (Button) findViewById(R.id.btu_water_power_fire_building);
+
+		// 提交按钮的处理事件
+		btu_water_power_fire_building.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+	}
+	
+}

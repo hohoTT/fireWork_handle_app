@@ -1,0 +1,75 @@
+package com.wt.water_power;
+
+import com.example.firework_handle_app.R;
+import com.wt.fire_agent.normal_fire;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+// 建筑火灾处理类
+public class water_power_fire_building extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.water_power_fire_building);
+		
+		// 提交按钮实现将过火面积进行传递并进行计算
+		Button btu_water_power_fire_building = (Button) findViewById(R.id.btu_water_power_fire_building);
+
+		// 提交按钮的处理事件
+		btu_water_power_fire_building.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+				// 获取一条干线支线的数量
+				EditText edit_water_power_fire_building_count_feeder = (EditText) findViewById(R.id.water_power_fire_building_count_feeder);
+				
+				// 将获取一条干线支线的数量转化为字符串的形式
+				String str_water_power_fire_building_count_feeder = edit_water_power_fire_building_count_feeder.getText().toString();
+				
+				// 获取一条干线水带数量
+				EditText edit_water_power_fire_building_count_groundline_band = (EditText) findViewById(R.id.water_power_fire_building_count_groundline_band);
+				
+				// 将获取一条干线水带数量转化为字符串的形式
+				String str_water_power_fire_building_count_groundline_band = edit_water_power_fire_building_count_groundline_band.getText().toString();
+				
+				// 获取一条支线水带数量
+				EditText edit_water_power_fire_building_count_feeder_band = (EditText) findViewById(R.id.water_power_fire_building_count_feeder_band);
+				
+				// 将获取一条支线水带数量转化为字符串的形式
+				String str_water_power_fire_building_count_feeder_band = edit_water_power_fire_building_count_feeder_band.getText().toString();
+				
+				
+				// 如果用户没有输入一条干线支线的数量就按下按钮，则提示用户输入一条干线支线的数量
+				if("".equals(str_water_power_fire_building_count_feeder)){
+					Toast.makeText(water_power_fire_building.this, "一条干线支线的数量不可为空",
+							Toast.LENGTH_SHORT).show();
+				}
+				// 如果用户没有输入一条支线水带数量就按下按钮，则提示用户输入一条干线支线的数量
+				else if("".equals(str_water_power_fire_building_count_groundline_band)){
+					Toast.makeText(water_power_fire_building.this, "一一条支线水带数量不可为空",
+							Toast.LENGTH_SHORT).show();
+				}
+				// 如果用户没有输入一条支线水带数量就按下按钮，则提示用户输入一条干线支线的数量
+				else if("".equals(str_water_power_fire_building_count_feeder_band)){
+					Toast.makeText(water_power_fire_building.this, "一一条支线水带数量不可为空",
+							Toast.LENGTH_SHORT).show();
+				}
+				// 
+				else{
+					
+				}
+			}
+		});
+	}
+	
+}
