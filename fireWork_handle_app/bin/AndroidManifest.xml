@@ -78,6 +78,30 @@
             
         </activity>
         
+        <activity 
+            android:name="com.wt.water_power.water_power"
+            android:label="@string/water_power">
+            
+        </activity>
+
+        <activity 
+            android:name="com.wt.water_power.water_power_fire"
+            android:label="@string/water_power_fire">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.water_power.water_power_fire_building"
+            android:label="@string/water_power_fire_building">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.water_power.water_power_fire_oilcan"
+            android:label="@string/water_power_fire_oilcan">
+            
+        </activity>
+        
     </application>
 
 </manifest>

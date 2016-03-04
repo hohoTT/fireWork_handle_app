@@ -1,0 +1,24 @@
+package com.wt.water_power;
+
+import com.example.firework_handle_app.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class water_power extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.water_power);
+		
+		// 获取按钮
+		
+		
+		// 实现按钮的处理事件
+		
+		// 按下按钮实现到火场供水压力计算的处理类
+	}
+	
+}

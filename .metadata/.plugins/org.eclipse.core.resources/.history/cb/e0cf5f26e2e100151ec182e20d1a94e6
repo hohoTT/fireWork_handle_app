@@ -1,0 +1,16 @@
+package com.wt.water_power;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+// 建筑火灾处理类
+public class water_power_fire_building extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		
+	}
+	
+}

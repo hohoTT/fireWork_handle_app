@@ -2,6 +2,7 @@ package com.wt.firework_handle_app;
 
 import com.wt.fire_agent.fire_agent;
 import com.wt.firework_handle_app.R;
+import com.wt.water_power.water_power;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -44,8 +45,8 @@ public class fire_calculate extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				// 实现页面的跳转
-				
-				
+				Intent intent = new Intent(fire_calculate.this, water_power.class);
+				startActivity(intent);
 			}
 		});
         
