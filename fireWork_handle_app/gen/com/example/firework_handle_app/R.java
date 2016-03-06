@@ -997,7 +997,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050077;
+        public static final int action_settings=0x7f05007c;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1018,6 +1018,7 @@ containing a value of this type.
         public static final int btu_water_power_pump=0x7f05005e;
         public static final int btu_water_power_pump_high=0x7f050076;
         public static final int btu_water_power_pump_low=0x7f050075;
+        public static final int btu_water_power_pump_low_send=0x7f050078;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
@@ -1034,6 +1035,7 @@ containing a value of this type.
         public static final int icon=0x7f05002a;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
+        public static final int lin_water_power_pump_low_height_result=0x7f050079;
         public static final int linear_fire_time=0x7f050045;
         public static final int linear_oilcan_fire_foam_water=0x7f05004f;
         public static final int linear_oilcan_fire_form_stoste=0x7f050052;
@@ -1068,6 +1070,7 @@ containing a value of this type.
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
+        public static final int test_water_power_pump_low_height=0x7f05007a;
         public static final int text_fire_time=0x7f050046;
         public static final int text_fire_time_result=0x7f050047;
         public static final int text_oilcan_fire__time=0x7f05005b;
@@ -1105,6 +1108,8 @@ containing a value of this type.
         public static final int water_power_fire_oilcan_height=0x7f05006e;
         public static final int water_power_fire_oilcan_result_65=0x7f05006f;
         public static final int water_power_fire_oilcan_result_80=0x7f050072;
+        public static final int water_power_pump_low_height=0x7f050077;
+        public static final int water_power_pump_low_height_result=0x7f05007b;
         public static final int withText=0x7f05000c;
     }
     public static final class integer {
@@ -1222,16 +1227,16 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-        public static final int action_settings=0x7f0a003f;
+        public static final int action_settings=0x7f0a0041;
         public static final int app_name=0x7f0a000d;
-        public static final int btn_send=0x7f0a003d;
+        public static final int btn_send=0x7f0a003f;
         public static final int btu_oilcan_fire=0x7f0a0024;
         public static final int btu_water_power=0x7f0a0023;
         public static final int fire_agent=0x7f0a000f;
         public static final int fire_area=0x7f0a0025;
         public static final int fire_calculate=0x7f0a000e;
         public static final int fire_plan=0x7f0a0010;
-        public static final int hello_world=0x7f0a003e;
+        public static final int hello_world=0x7f0a0040;
         public static final int normal_fire=0x7f0a0011;
         public static final int normal_fire_result=0x7f0a0012;
         public static final int oilcan_fire=0x7f0a0013;
@@ -1244,16 +1249,17 @@ containing a value of this type.
         public static final int olican_fire_water_result=0x7f0a0016;
         public static final int olican_type_drift=0x7f0a0029;
         public static final int olican_type_fixed=0x7f0a0028;
-        public static final int text_fire_time=0x7f0a0035;
-        public static final int text_oilcan_fire_foam_water=0x7f0a0037;
-        public static final int text_oilcan_fire_form_stoste=0x7f0a0038;
-        public static final int text_oilcan_fire_water=0x7f0a0036;
+        public static final int test_water_power_pump_low_height=0x7f0a003e;
+        public static final int text_fire_time=0x7f0a0036;
+        public static final int text_oilcan_fire_foam_water=0x7f0a0038;
+        public static final int text_oilcan_fire_form_stoste=0x7f0a0039;
+        public static final int text_oilcan_fire_water=0x7f0a0037;
         public static final int text_olican_type=0x7f0a0027;
-        public static final int text_water=0x7f0a0034;
-        public static final int text_water_power_fire_building_65=0x7f0a0039;
-        public static final int text_water_power_fire_building_80=0x7f0a003a;
-        public static final int text_water_power_fire_oilcan_65=0x7f0a003b;
-        public static final int text_water_power_fire_oilcan_80=0x7f0a003c;
+        public static final int text_water=0x7f0a0035;
+        public static final int text_water_power_fire_building_65=0x7f0a003a;
+        public static final int text_water_power_fire_building_80=0x7f0a003b;
+        public static final int text_water_power_fire_oilcan_65=0x7f0a003c;
+        public static final int text_water_power_fire_oilcan_80=0x7f0a003d;
         public static final int water_power=0x7f0a0018;
         public static final int water_power_fire=0x7f0a0019;
         public static final int water_power_fire_building=0x7f0a001b;
@@ -1272,6 +1278,7 @@ containing a value of this type.
         public static final int water_power_pump_high=0x7f0a0021;
         public static final int water_power_pump_high_result=0x7f0a0022;
         public static final int water_power_pump_low=0x7f0a001f;
+        public static final int water_power_pump_low_height=0x7f0a0034;
         public static final int water_power_pump_low_result=0x7f0a0020;
     }
     public static final class style {

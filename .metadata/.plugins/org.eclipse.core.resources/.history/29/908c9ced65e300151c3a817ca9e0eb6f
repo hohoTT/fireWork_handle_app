@@ -1,0 +1,26 @@
+package com.wt.water_power;
+
+import com.example.firework_handle_app.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+
+// 建高小于50米的供水压力计算处理类
+public class water_power_pump_low extends Activity {
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		
+		setContentView(R.layout.water_power_pump_low);
+		
+		
+		Button water_power_pump_low_height = (Button) findViewById(R.id.water_power_pump_low_height);
+		
+		
+		
+	}
+	
+}

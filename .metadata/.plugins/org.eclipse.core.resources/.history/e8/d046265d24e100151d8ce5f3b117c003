@@ -1,8 +1,0 @@
-package com.wt.water_power;
-
-import android.app.Activity;
-
-// 建筑火灾处理类
-public class water_power_fire_building extends Activity {
-
-}

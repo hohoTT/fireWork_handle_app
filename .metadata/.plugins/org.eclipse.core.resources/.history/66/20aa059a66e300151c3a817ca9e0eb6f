@@ -1,0 +1,56 @@
+package com.wt.water_power;
+
+import com.example.firework_handle_app.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+
+// 建高小于50米的供水压力计算处理类
+public class water_power_pump_low extends Activity {
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		
+		setContentView(R.layout.water_power_pump_low);
+		
+		// 获取提交按钮
+		Button btu_water_power_pump_low_send = (Button) findViewById(R.id.btu_water_power_pump_low_send);
+		
+		// 实现提交按钮的处理事件
+		btu_water_power_pump_low_send.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+
+				// 获取建筑高度(小于50米)的数值
+				EditText edid_water_power_pump_low_height = (EditText) findViewById(R.id.water_power_pump_low_height);
+				
+				// 将获取的高度数值转化为字符串的类型
+				String str_water_power_pump_low_height = edid_water_power_pump_low_height.getText().toString();
+				
+				// 如果用户没有输入建筑高度就按下按钮，则提示用户输入建筑高度
+				if(){
+					
+				}
+				
+				else{
+					
+				}
+				
+				
+			}
+		});
+		
+		
+		
+		
+	}
+	
+}

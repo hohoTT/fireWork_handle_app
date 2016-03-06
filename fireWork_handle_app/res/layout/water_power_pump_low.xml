@@ -2,7 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_vertical"
     android:orientation="vertical" >
     
-
+    <EditText
+        android:id="@+id/water_power_pump_low_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+	    android:layout_margin="30dp"
+        android:hint="@string/water_power_pump_low_height" />
+    
+    <Button 
+        android:id="@+id/btu_water_power_pump_low_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+	    android:layout_margin="30dp"
+	    android:padding="20dp"
+        android:text="@string/btn_send" />
+    
+    
 </LinearLayout>

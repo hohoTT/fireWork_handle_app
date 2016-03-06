@@ -43,17 +43,20 @@
     <string name="water_power_fire_oilcan_count_groundline_band">请输入一条干线水带数量</string>
     <string name="water_power_fire_oilcan_count_feeder_band">请输入一条支线水带数量</string>
     <string name="water_power_fire_oilcan_height">请输入高度差</string>
+    <string name="water_power_pump_low_height">请输入建筑高度(小于50米)</string>
     
     
-    <string name="text_water">一般火灾中每秒的用水量为：</string>
-    <string name="text_fire_time">10吨消防车可持续灭火的时间为：</string>
-    <string name="text_oilcan_fire_water">该油罐火灾中每秒的用水量为：</string>
-    <string name="text_oilcan_fire_foam_water">该油罐火灾中水的用量为：</string>
-    <string name="text_oilcan_fire_form_stoste">该油罐火灾中泡沫原液的用量为：</string>
-    <string name="text_water_power_fire_building_65">65mm水带建筑火灾的供水压力为：</string>
-    <string name="text_water_power_fire_building_80">80mm水带建筑火灾的供水压力为：</string>
-    <string name="text_water_power_fire_oilcan_65">65mm水带油罐火灾的供水压力为：</string>
-    <string name="text_water_power_fire_oilcan_80">80mm水带油罐火灾的供水压力为：</string>
+    
+    <string name="text_water">一般火灾中每秒的用水量为 : </string>
+    <string name="text_fire_time">10吨消防车可持续灭火的时间为 : </string>
+    <string name="text_oilcan_fire_water">该油罐火灾中每秒的用水量为 : </string>
+    <string name="text_oilcan_fire_foam_water">该油罐火灾中水的用量为 : </string>
+    <string name="text_oilcan_fire_form_stoste">该油罐火灾中泡沫原液的用量为 : </string>
+    <string name="text_water_power_fire_building_65">65mm水带建筑火灾的供水压力为 : </string>
+    <string name="text_water_power_fire_building_80">80mm水带建筑火灾的供水压力为 : </string>
+    <string name="text_water_power_fire_oilcan_65">65mm水带油罐火灾的供水压力为 : </string>
+    <string name="text_water_power_fire_oilcan_80">80mm水带油罐火灾的供水压力为 :</string>
+    <string name="test_water_power_pump_low_height">该建筑高度下的供水压力为 :</string>
     
     
     <string name="btn_send">提交</string>
