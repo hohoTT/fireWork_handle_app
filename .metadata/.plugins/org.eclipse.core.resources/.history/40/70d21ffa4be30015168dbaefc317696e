@@ -1,0 +1,8 @@
+package com.wt.water_power;
+
+import android.app.Activity;
+
+// 建高小于50米的供水压力计算处理类
+public class water_power_pump_low extends Activity {
+
+}

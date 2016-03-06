@@ -14,11 +14,15 @@
     <string name="oilcan_fire_foam_result">该油罐火灾泡沫用量计算结果</string>
     <string name="water_power">供水压力计算</string>
     <string name="water_power_fire">火场供水压力计算</string>
-    <string name="water__power_pump">水泵接合器供水技术计算</string>
+    <string name="water_power_pump">水泵接合器供水技术计算</string>
     <string name="water_power_fire_building">建筑火灾供水压力计算</string>
     <string name="water_power_fire_building_result">建筑火灾火场供水压力计算结果</string>
     <string name="water_power_fire_oilcan">油罐火灾供水压力计算</string>
     <string name="water_power_fire_oilcan_result">油罐火灾供水压力计算结果</string>
+    <string name="water_power_pump_low">建高小于50米的供水压力计算</string>
+    <string name="water_power_pump_low_result">建高小于50米的供水压力计算结果</string>
+    <string name="water_power_pump_high">建高高于50米的供水压力计算</string>
+    <string name="water_power_pump_high_result">建高高于50米的供水压力计算结果</string>
     
     
     <string name="btu_water_power">供水压力计算</string>
@@ -50,7 +54,6 @@
     <string name="text_water_power_fire_building_80">80mm水带建筑火灾的供水压力为：</string>
     <string name="text_water_power_fire_oilcan_65">65mm水带油罐火灾的供水压力为：</string>
     <string name="text_water_power_fire_oilcan_80">80mm水带油罐火灾的供水压力为：</string>
-    
     
     
     <string name="btn_send">提交</string>

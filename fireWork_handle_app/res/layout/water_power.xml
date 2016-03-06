@@ -13,11 +13,11 @@
 	    android:text="@string/water_power_fire" />
     
     <Button 
-        android:id="@+id/btu_water__power_pump"
+        android:id="@+id/btu_water_power_pump"
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:layout_margin="30dp"
-	    android:text="@string/water__power_pump" />
+	    android:text="@string/water_power_pump" />
     
     
 </LinearLayout>

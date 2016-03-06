@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firework_handle_app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.wt.firework_handle_app.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name="com.wt.firework_handle_app.fire_calculate"
+            android:label="@string/fire_calculate">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.fire_agent.fire_agent"
+            android:label="@string/fire_agent">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.fire_agent.normal_fire"
+            android:label="@string/normal_fire">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.fire_agent.normal_fire_result"
+            android:label="@string/normal_fire_result">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.fire_agent.oilcan_fire"
+            android:label="@string/oilcan_fire">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.fire_agent.olican_fire_water"
+            android:label="@string/olican_fire_water">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.fire_agent.olican_fire_water_result"
+            android:label="@string/olican_fire_water">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.fire_agent.olican_fire_foam"
+            android:label="@string/olican_fire_foam">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.fire_agent.oilcan_fire_foam_result"
+            android:label="@string/olican_fire_foam">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.water_power.water_power"
+            android:label="@string/water_power">
+            
+        </activity>
+
+        <activity 
+            android:name="com.wt.water_power.water_power_fire"
+            android:label="@string/water_power_fire">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.water_power.water_power_fire_building"
+            android:label="@string/water_power_fire_building">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.water_power.water_power_fire_building_result"
+            android:label="@string/water_power_fire_building_result">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.water_power.water_power_fire_oilcan"
+            android:label="@string/water_power_fire_oilcan">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.water_power.water_power_fire_oilcan_result"
+            android:label="@string/water_power_fire_oilcan_result">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.water_power.water_power_pump_low"
+            android:label="@string/water__power_pump_low">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.water_power.water__power_pump_low_result"
+            android:label="@string/water__power_pump_low_result">
+            
+        </activity>
+        
+    </application>
+
+</manifest>
