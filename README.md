@@ -17,3 +17,10 @@
     ![](https://github.com/hohoTT/fireWork_handle_app/blob/master/image/img/3.jpg)
     ![](https://github.com/hohoTT/fireWork_handle_app/blob/master/image/img/4.jpg)
     ![](https://github.com/hohoTT/fireWork_handle_app/blob/master/image/img/5.jpg)
+    
+--------------------------------------------------------------------------------------------------------------------------------------
+    
+以下是测试时的效果图:
+    ![](https://github.com/hohoTT/fireWork_handle_app/blob/master/image/result/result1.jpeg)
+    
+    
