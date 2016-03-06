@@ -20,7 +20,7 @@ public class water_power_pump extends Activity {
 		
 		// 按下以下的两个按钮对将要计算的供水压力进行建高的选择
 		
-		// 50米以下的建高按钮
+		// 50米以下的建高供水压力计算处理按钮
 		Button btu_water_power_pump_low = (Button) findViewById(R.id.btu_water_power_pump_low);
 		
 		// 实现按钮的处理事件
@@ -34,7 +34,22 @@ public class water_power_pump extends Activity {
 				Intent intent = new Intent(water_power_pump.this, water_power_pump_low.class);
 				
 				startActivity(intent);
+			}
+		});
+		
+		// 50米以上的建高供水压力计算处理按钮
+		Button btu_water_power_pump_high = (Button) findViewById(R.id.btu_water_power_pump_high);
+		
+		// 实现按钮的处理事件
+		btu_water_power_pump_high.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				// 实现到建筑高度50米以上的计算处理类的跳转
+				Intent intent = new Intent(water_power_pump.this, water_power_pump_high.class);
 				
+				startActivity(intent);
 			}
 		});
 		

@@ -1,0 +1,27 @@
+package com.wt.water_power;
+
+import com.example.firework_handle_app.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+
+// 建筑高度在50米以上的计算处理类
+public class water_power_pump_high extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		
+		setContentView(R.layout.water_power_pump_high);
+
+		// 获取提交按钮
+		Button btu_water_power_pump_high_send = (Button) findViewById(R.id.btu_water_power_pump_high_send);
+			
+		// 实现按钮的处理事件，点击按钮
+		
+	}
+	
+	
+}

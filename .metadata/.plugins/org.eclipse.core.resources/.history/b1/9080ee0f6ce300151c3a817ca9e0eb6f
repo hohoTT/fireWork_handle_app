@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">fireWork_handle_app</string>
+    <string name="fire_calculate">现场计算</string>
+    <string name="fire_agent">火灾剂用量计算</string>
+    <string name="fire_plan">火灾预案</string>
+    <string name="normal_fire">一般火灾计算</string>
+    <string name="normal_fire_result">一般火灾用水量计算结果</string>
+    <string name="oilcan_fire">油罐火灾情况下的计算</string>
+    <string name="olican_fire_water">冷却用水量计算</string>
+    <string name="olican_fire_foam">泡沫用量计算</string>
+    <string name="olican_fire_water_result">该油罐火灾用水量计算结果</string>
+    <string name="oilcan_fire_foam_result">该油罐火灾泡沫用量计算结果</string>
+    <string name="water_power">供水压力计算</string>
+    <string name="water_power_fire">火场供水压力计算</string>
+    <string name="water_power_pump">水泵接合器供水技术计算</string>
+    <string name="water_power_fire_building">建筑火灾供水压力计算</string>
+    <string name="water_power_fire_building_result">建筑火灾火场供水压力计算结果</string>
+    <string name="water_power_fire_oilcan">油罐火灾供水压力计算</string>
+    <string name="water_power_fire_oilcan_result">油罐火灾供水压力计算结果</string>
+    <string name="water_power_pump_low">建高小于50米的供水压力计算</string>
+    <string name="water_power_pump_low_result">建高小于50米的供水压力计算结果</string>
+    <string name="water_power_pump_high">建高高于50米的供水压力计算</string>
+    <string name="water_power_pump_high_result">建高高于50米的供水压力计算结果</string>
+    
+    
+    <string name="btu_water_power">供水压力计算</string>
+    <string name="btu_oilcan_fire">油罐火灾计算</string>
+    <string name="fire_area">请输入过火面积</string>
+    <string name="olican_diameter">请输入油罐直径</string>
+    <string name="text_olican_type">请选择您需要计算的油罐类型:</string>
+    <string name="olican_type_fixed">固定顶油罐</string>
+    <string name="olican_type_drift">浮顶油罐</string>
+    <string name="olican_fire_foam_area">请输入油罐的燃烧面积</string>
+    <string name="olican_fire_foam_flow">请输入流量</string>
+    <string name="water_power_fire_building_count_feeder">请输入一条干线支线的数量</string>
+    <string name="water_power_fire_building_count_groundline_band">请输入一条干线水带数量</string>
+    <string name="water_power_fire_building_count_feeder_band">请输入一条支线水带数量</string>
+    <string name="water_power_fire_building_height">请输入高度差</string>
+    
+    <string name="water_power_fire_oilcan_count_feeder">请输入一条干线支线的数量</string>
+    <string name="water_power_fire_oilcan_count_groundline_band">请输入一条干线水带数量</string>
+    <string name="water_power_fire_oilcan_count_feeder_band">请输入一条支线水带数量</string>
+    <string name="water_power_fire_oilcan_height">请输入高度差</string>
+    <string name="water_power_pump_low_height">请输入建筑高度(小于50米)</string>
+    
+    
+    
+    <string name="text_water">一般火灾中每秒的用水量为 : </string>
+    <string name="text_fire_time">10吨消防车可持续灭火的时间为 : </string>
+    <string name="text_oilcan_fire_water">该油罐火灾中每秒的用水量为 : </string>
+    <string name="text_oilcan_fire_foam_water">该油罐火灾中水的用量为 : </string>
+    <string name="text_oilcan_fire_form_stoste">该油罐火灾中泡沫原液的用量为 : </string>
+    <string name="text_water_power_fire_building_65">65mm水带建筑火灾的供水压力为 : </string>
+    <string name="text_water_power_fire_building_80">80mm水带建筑火灾的供水压力为 : </string>
+    <string name="text_water_power_fire_oilcan_65">65mm水带油罐火灾的供水压力为 : </string>
+    <string name="text_water_power_fire_oilcan_80">80mm水带油罐火灾的供水压力为 :</string>
+    <string name="test_water_power_pump_low_height">该建筑高度下的供水压力为 :</string>
+    
+    
+    <string name="btn_send">提交</string>
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    
+    
+
+</resources>

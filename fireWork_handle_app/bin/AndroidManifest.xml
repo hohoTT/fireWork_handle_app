@@ -132,6 +132,18 @@
             
         </activity>
         
+        <activity 
+            android:name="com.wt.water_power.water_power_pump_high"
+            android:label="@string/water_power_pump_low_result">
+            
+        </activity>
+        
+        <activity 
+            android:name="com.wt.water_power.water_power_pump_high_result"
+            android:label="@string/water_power_pump_low_result">
+            
+        </activity>
+        
     </application>
 
 </manifest>

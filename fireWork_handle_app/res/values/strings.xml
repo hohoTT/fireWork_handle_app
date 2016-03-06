@@ -44,6 +44,7 @@
     <string name="water_power_fire_oilcan_count_feeder_band">请输入一条支线水带数量</string>
     <string name="water_power_fire_oilcan_height">请输入高度差</string>
     <string name="water_power_pump_low_height">请输入建筑高度(小于50米)</string>
+    <string name="water_power_pump_high_height">请输入建筑高度(大于50米)</string>
     
     
     
@@ -57,6 +58,7 @@
     <string name="text_water_power_fire_oilcan_65">65mm水带油罐火灾的供水压力为 : </string>
     <string name="text_water_power_fire_oilcan_80">80mm水带油罐火灾的供水压力为 :</string>
     <string name="test_water_power_pump_low_height">该建筑高度下的供水压力为 :</string>
+    <string name="test_water_power_pump_high_height">该建筑高度下的供水压力为 :</string>
     
     
     <string name="btn_send">提交</string>

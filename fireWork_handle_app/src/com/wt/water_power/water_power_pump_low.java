@@ -52,7 +52,7 @@ public class water_power_pump_low extends Activity {
 						double water_power_pump_low_height = Double.valueOf(str_water_power_pump_low_height);
 						
 						// 判断用户输入的建筑高度是否符合要求，是否满足高度在50米以下条件
-						if(water_power_pump_low_height <= 50){
+						if(water_power_pump_low_height <= 50 && water_power_pump_low_height > 0){
 							// 以下为用户输入符合要求的情况
 							// 进行数值的计算
 							double water_power_pump_low_height_result = water_power_pump_low_height + 8 + 27.5;
@@ -67,7 +67,7 @@ public class water_power_pump_low extends Activity {
 						}
 						// 以下为高度大于50米的情况，提示用户重新进行输入
 						else{
-							Toast.makeText(water_power_pump_low.this, "输入的建筑高度不可超过50米，请重新输入！",
+							Toast.makeText(water_power_pump_low.this, "输入的建筑高度为0到50的数字，请重新输入！",
 									Toast.LENGTH_SHORT).show();
 						}
 						

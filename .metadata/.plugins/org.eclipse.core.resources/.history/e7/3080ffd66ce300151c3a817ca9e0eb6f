@@ -1,0 +1,51 @@
+package com.wt.water_power;
+
+import com.example.firework_handle_app.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+// 建筑高度在50米以上的计算处理类
+public class water_power_pump_high extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		
+		setContentView(R.layout.water_power_pump_high);
+
+		// 获取提交按钮
+		Button btu_water_power_pump_high_send = (Button) findViewById(R.id.btu_water_power_pump_high_send);
+			
+		// 实现按钮的处理事件，点击按钮进行供水压力的计算
+		btu_water_power_pump_high_send.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+				// 获取界面中用户输入的建筑高度
+				EditText edit_water_power_pump_high_height = (EditText) findViewById(R.id.water_power_pump_high_height);
+				
+				// 将获得的建筑高度转化为字符串的形式
+				String str_water_power_pump_high_height = edit_water_power_pump_high_height.getText().toString();
+
+				// 如果用户没有输入建筑高度就按下按钮，则提示用户输入建筑高度
+				if ("".equals(str_water_power_pump_high_height)) {
+					Toast.makeText(water_power_pump_high.this,
+							"建筑高度不可为空", Toast.LENGTH_SHORT).show();
+				}
+				
+			}
+		});
+		
+	}
+	
+	
+}
