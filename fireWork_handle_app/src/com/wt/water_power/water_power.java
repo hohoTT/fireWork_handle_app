@@ -39,7 +39,10 @@ public class water_power extends Activity {
 		
 		// 获取按钮
 		Button btu_water_power_pump = (Button) findViewById(R.id.btu_water_power_pump);
-		
+
+        // 设置按钮的透明度
+        btu_water_power_pump.getBackground().setAlpha(100);
+        
 		// 实现按钮的处理事件
 		btu_water_power_pump.setOnClickListener(new OnClickListener() {
 			

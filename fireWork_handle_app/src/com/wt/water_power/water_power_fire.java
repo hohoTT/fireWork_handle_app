@@ -38,7 +38,10 @@ public class water_power_fire extends Activity {
 		
 		// 按下按钮，跳转到油罐火灾情况下的处理类
 		Button btu_water_power_fire_oilcan = (Button) findViewById(R.id.btu_water_power_fire_oilcan);
-		
+
+        // 设置按钮的透明度
+        btu_water_power_fire_oilcan.getBackground().setAlpha(100);
+        
 		// 油罐火灾按钮的处理事件
 		btu_water_power_fire_oilcan.setOnClickListener(new OnClickListener() {
 			

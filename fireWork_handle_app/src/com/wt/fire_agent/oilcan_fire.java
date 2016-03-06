@@ -37,7 +37,10 @@ public class oilcan_fire extends Activity {
 		
 		// 泡沫用量计算的处理
 		Button btu_olican_fire_foam = (Button) findViewById(R.id.btu_olican_fire_foam);
-		
+
+        // 设置按钮的透明度
+        btu_olican_fire_foam.getBackground().setAlpha(100);
+        
 		// 泡沫用量计算的时间处理
 		btu_olican_fire_foam.setOnClickListener(new OnClickListener() {
 			

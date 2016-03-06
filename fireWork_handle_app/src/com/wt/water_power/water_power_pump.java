@@ -42,7 +42,10 @@ public class water_power_pump extends Activity {
 		
 		// 50米以上的建高供水压力计算处理按钮
 		Button btu_water_power_pump_high = (Button) findViewById(R.id.btu_water_power_pump_high);
-		
+
+        // 设置按钮的透明度
+        btu_water_power_pump_high.getBackground().setAlpha(100);
+        
 		// 实现按钮的处理事件
 		btu_water_power_pump_high.setOnClickListener(new OnClickListener() {
 			

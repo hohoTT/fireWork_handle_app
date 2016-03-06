@@ -40,6 +40,9 @@ public class fire_calculate extends Activity {
         
         // 供水压力计算的处理
         Button btu_water_power = (Button) findViewById(R.id.btu_water_power);
+
+        // 设置按钮的透明度
+        btu_water_power.getBackground().setAlpha(100);
         
         // 供水压力计算的处理事件
         btu_water_power.setOnClickListener(new OnClickListener() {
