@@ -38,7 +38,7 @@
         android:hint="@string/water_power_fire_oilcan_height" />
     
     <Button 
-        android:id="@+id/btu_water_power_fire_oilcan"
+        android:id="@+id/btu_water_power_fire_building"
         android:layout_width="wrap_content"
         android:layout_gravity="center"
 	    android:layout_margin="30dp"

@@ -1,0 +1,21 @@
+package com.wt.water_power;
+
+import com.example.firework_handle_app.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+// 油罐火灾供水压力处理类
+public class water_power_fire_oilcan extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.water_power_fire_oilcan);
+		
+		
+	}
+	
+	
+}

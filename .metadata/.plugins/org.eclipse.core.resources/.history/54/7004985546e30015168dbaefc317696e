@@ -21,7 +21,7 @@ public class water_power_fire_building extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.water_power_fire_building);
 
-		// 提交按钮实现将最后的建筑火灾情况下的结果进行传递并进行计算
+		// 提交按钮实现将最后的火场供水压力情况下的结果进行传递并进行计算
 		Button btu_water_power_fire_building = (Button) findViewById(R.id.btu_water_power_fire_building);
 
 		// 提交按钮的处理事件
@@ -121,7 +121,7 @@ public class water_power_fire_building extends Activity {
 								* water_power_fire_building_count_groundline_band;
 
 						double water_power_fire_building_80_result = x1 + y1
-								+ water_power_fire_building_count_feeder * 0.27
+								+ water_power_fire_building_count_feeder * 0.355
 								+ water_power_fire_building_height;
 						
 						// 将计算的数值进行传递
@@ -136,7 +136,7 @@ public class water_power_fire_building extends Activity {
 						// TODO: handle exception
 						// 获取不为数字类型的异常，以Toast的形式抛出给用户提示信息
 						Toast.makeText(water_power_fire_building.this,
-								"四个数量只能是数字", Toast.LENGTH_SHORT).show();
+								"三个数量只能是数字", Toast.LENGTH_SHORT).show();
 					}
 				}
 			}

@@ -1,0 +1,66 @@
+package com.wt.water_power;
+
+import com.example.firework_handle_app.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+
+// 油罐火灾供水压力处理类
+public class water_power_fire_oilcan extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.water_power_fire_oilcan);
+		
+		// 提交按钮实现将最后的油罐火灾情况下的结果进行传递并进行计算
+		Button btu_water_power_fire_oilcan = (Button) findViewById(R.id.btu_water_power_fire_oilcan);
+
+		// 提交按钮的处理事件
+		btu_water_power_fire_oilcan.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+				// 获取一条干线支线的数量
+				EditText edit_water_power_fire_oilcan_count_feeder = (EditText) findViewById(R.id.water_power_fire_oilcan_count_feeder);
+
+				// 将获取一条干线支线的数量转化为字符串的形式
+				String str_water_power_fire_oilcan_count_feeder = edit_water_power_fire_oilcan_count_feeder
+						.getText().toString();
+
+				// 获取一条干线水带数量
+				EditText edit_water_power_fire_oilcan_count_groundline_band = (EditText) findViewById(R.id.water_power_fire_oilcan_count_groundline_band);
+
+				// 将获取一条干线水带数量转化为字符串的形式
+				String str_water_power_fire_oilcan_count_groundline_band = edit_water_power_fire_oilcan_count_groundline_band
+						.getText().toString();
+
+				// 获取一条支线水带数量
+				EditText edit_water_power_fire_oilcan_count_feeder_band = (EditText) findViewById(R.id.water_power_fire_oilcan_count_feeder_band);
+
+				// 将获取一条支线水带数量转化为字符串的形式
+				String str_water_power_fire_oilcan_count_feeder_band = edit_water_power_fire_oilcan_count_feeder_band
+						.getText().toString();
+
+				// 获取高度差
+				EditText edit_water_power_fire_oilcan_height = (EditText) findViewById(R.id.water_power_fire_oilcan_height);
+
+				// 将获取的高度差转化为字符串的形式
+				String str_water_power_fire_oilcan_height = edit_water_power_fire_oilcan_height
+						.getText().toString();
+				
+				
+				
+			}
+		});
+	}
+	
+	
+}

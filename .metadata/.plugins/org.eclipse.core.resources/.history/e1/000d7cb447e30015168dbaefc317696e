@@ -109,15 +109,15 @@ public class water_power_fire_oilcan extends Activity {
 								* water_power_fire_oilcan_count_groundline_band;
 
 						double water_power_fire_oilcan_65_result = x + y
-								+ water_power_fire_oilcan_count_feeder * 0.355
+								+ water_power_fire_oilcan_count_feeder * 0.27
 								+ water_power_fire_oilcan_height;
 						
 						// 以下为 80mm 水带计算的过程
 						double x1 = 0.015 * 6.5 * 6.5 * water_power_fire_oilcan_count_feeder_band;
 
 						double y1 = 0.015
-								* (7.5 * water_power_fire_oilcan_count_feeder)
-								* (7.5 * water_power_fire_oilcan_count_feeder)
+								* (6.5 * water_power_fire_oilcan_count_feeder)
+								* (6.5 * water_power_fire_oilcan_count_feeder)
 								* water_power_fire_oilcan_count_groundline_band;
 
 						double water_power_fire_oilcan_80_result = x1 + y1
@@ -136,7 +136,7 @@ public class water_power_fire_oilcan extends Activity {
 						// TODO: handle exception
 						// 获取不为数字类型的异常，以Toast的形式抛出给用户提示信息
 						Toast.makeText(water_power_fire_oilcan.this,
-								"四个数量只能是数字", Toast.LENGTH_SHORT).show();
+								"三个数量只能是数字", Toast.LENGTH_SHORT).show();
 					}
 				}
 				
