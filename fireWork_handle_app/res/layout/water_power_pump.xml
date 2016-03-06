@@ -11,14 +11,16 @@
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:layout_margin="30dp"
-	    android:text="@string/water_power_pump_low" />
+	    android:text="@string/water_power_pump_low" 
+	    android:background="@drawable/shape_one"/>
     
     <Button 
         android:id="@+id/btu_water_power_pump_high"
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:layout_margin="30dp"
-	    android:text="@string/water_power_pump_high" />
+	    android:text="@string/water_power_pump_high"
+	    android:background="@drawable/shape_two" />
     
     
 </LinearLayout>

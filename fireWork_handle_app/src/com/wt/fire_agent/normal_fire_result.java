@@ -8,6 +8,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Window;
 import android.widget.TextView;
 
 // 一般火灾中计算水剂的结果类，即呈现计算水剂的结果
@@ -17,6 +18,8 @@ public class normal_fire_result extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+        // 去除标题栏
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.normal_fire_result);
 		
 		// 获取normal_fire处理类中传入的数值

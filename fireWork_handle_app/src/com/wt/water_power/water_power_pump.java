@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
@@ -15,6 +16,8 @@ public class water_power_pump extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+        // È¥³ý±êÌâÀ¸
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
 	
 		setContentView(R.layout.water_power_pump);
 		

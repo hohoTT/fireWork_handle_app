@@ -7,6 +7,7 @@ import com.example.firework_handle_app.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Window;
 import android.widget.TextView;
 
 // 油罐火灾的结果类
@@ -16,7 +17,9 @@ public class water_power_fire_oilcan_result extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-	
+
+        // 去除标题栏
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.water_power_fire_oilcan_result);
 		
 		// 获取water_power_fire_oilcan处理类中传入的数值

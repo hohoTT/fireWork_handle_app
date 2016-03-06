@@ -7,6 +7,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,6 +20,8 @@ public class water_power_fire_building extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+        // 去除标题栏
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.water_power_fire_building);
 
 		// 提交按钮实现将最后的建筑火灾情况下的结果进行传递并进行计算

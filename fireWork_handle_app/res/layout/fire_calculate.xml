@@ -11,13 +11,15 @@
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:layout_margin="30dp"
-	    android:text="@string/fire_agent" />
+	    android:text="@string/fire_agent" 
+	    android:background="@drawable/shape_one" />
     
     <Button 
         android:id="@+id/btu_water_power"
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:layout_margin="30dp"
-	    android:text="@string/btu_water_power" />
+	    android:text="@string/btu_water_power"
+	    android:background="@drawable/shape_two"  />
     
 </LinearLayout>

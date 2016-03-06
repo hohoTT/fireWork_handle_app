@@ -11,14 +11,16 @@
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:layout_margin="30dp"
-	    android:text="@string/olican_fire_water" />
+	    android:text="@string/olican_fire_water"
+	    android:background="@drawable/shape_one" />
     
     <Button 
         android:id="@+id/btu_olican_fire_foam"
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:layout_margin="30dp"
-	    android:text="@string/olican_fire_foam" />
+	    android:text="@string/olican_fire_foam"
+	    android:background="@drawable/shape_two" />
     
     
 </LinearLayout>

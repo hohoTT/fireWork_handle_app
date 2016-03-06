@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,6 +20,8 @@ public class normal_fire extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+        // 去除标题栏
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.normal_fire_water);
 
 		// 提交按钮实现将过火面积进行传递并进行计算

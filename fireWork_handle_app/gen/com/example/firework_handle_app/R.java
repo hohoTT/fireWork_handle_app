@@ -987,6 +987,8 @@ containing a value of this type.
         public static final int index=0x7f02005a;
         public static final int left=0x7f02005b;
         public static final int right=0x7f02005c;
+        public static final int shape_one=0x7f02005d;
+        public static final int shape_two=0x7f02005e;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;

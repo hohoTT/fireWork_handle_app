@@ -8,6 +8,7 @@ import com.example.firework_handle_app.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Window;
 import android.widget.TextView;
 
 //建高小于50米的供水压力计算结果类
@@ -17,6 +18,8 @@ public class water_power_pump_low_result extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+        // 去除标题栏
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
 		
 		setContentView(R.layout.water_power_pump_low_result);
 		
