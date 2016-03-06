@@ -130,8 +130,6 @@ public class water_power_fire_building extends Activity {
 						intent.putExtra("water_power_fire_building_65_result", water_power_fire_building_65_result);
 						intent.putExtra("water_power_fire_building_80_result", water_power_fire_building_80_result);
 
-						startActivity(intent);
-						
 					} catch (Exception e) {
 						// TODO: handle exception
 						// 获取不为数字类型的异常，以Toast的形式抛出给用户提示信息
