@@ -48,9 +48,6 @@
     <string name="text_oilcan_fire_form_stoste">该油罐火灾中泡沫原液的用量为：</string>
     <string name="text_water_power_fire_building_65">65mm水带建筑火灾的供水压力为：</string>
     <string name="text_water_power_fire_building_80">80mm水带建筑火灾的供水压力为：</string>
-    <string name="text_water_power_fire_oilcan_65">65mm水带油罐火灾的供水压力为：</string>
-    <string name="text_water_power_fire_oilcan_80">80mm水带油罐火灾的供水压力为：</string>
-    
     
     
     <string name="btn_send">提交</string>

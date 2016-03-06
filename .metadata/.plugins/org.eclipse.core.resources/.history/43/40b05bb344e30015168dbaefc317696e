@@ -110,7 +110,7 @@
         
         <activity 
             android:name="com.wt.water_power.water_power_fire_oilcan_result"
-            android:label="@string/water_power_fire_oilcan_result">
+            android:label="@string/water_power_fire_oilcan">
             
         </activity>
         

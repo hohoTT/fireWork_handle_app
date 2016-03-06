@@ -97,14 +97,20 @@
         </activity>
         
         <activity 
+            android:name="com.wt.water_power.water_power_fire_building_result"
+            android:label="@string/water_power_fire_building_result">
+            
+        </activity>
+        
+        <activity 
             android:name="com.wt.water_power.water_power_fire_oilcan"
             android:label="@string/water_power_fire_oilcan">
             
         </activity>
         
         <activity 
-            android:name="com.wt.water_power.water_power_fire_building_result"
-            android:label="@string/water_power_fire_building_result">
+            android:name="com.wt.water_power.water_power_fire_oilcan_result"
+            android:label="@string/water_power_fire_oilcan_result">
             
         </activity>
         
