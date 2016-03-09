@@ -34,7 +34,7 @@ public class water_power_pump_high_result extends Activity {
 		// 获取界面中的water_power_pump_high_height_result属性，用于为其填写计算的供水压力的
 		TextView text_water_power_pump_high_height_result = (TextView) findViewById(R.id.water_power_pump_high_height_result);
 		
-		text_water_power_pump_high_height_result.setText(df.format(water_power_pump_high_results));
+		text_water_power_pump_high_height_result.setText(df.format(water_power_pump_high_results) + " mH2O");
 				
 	}
 	

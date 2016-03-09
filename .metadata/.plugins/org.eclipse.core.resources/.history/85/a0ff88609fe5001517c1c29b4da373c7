@@ -36,11 +36,11 @@ public class water_power_fire_oilcan_result extends Activity {
 		
 		// 将65mm水带油罐火灾的供水压力的数值传入到界面中text_water_power_fire_oilcan_65_result的TextView中，设置其内容
 		TextView text_water_power_fire_oilcan_65_result = (TextView) findViewById(R.id.text_water_power_fire_oilcan_65_result);
-		text_water_power_fire_oilcan_65_result.setText(df.format(water_power_fire_oilcan_65_result) + " mpa");
+		text_water_power_fire_oilcan_65_result.setText(df.format(water_power_fire_oilcan_65_result));
 		
 		// 将65mm水带油罐火灾的供水压力的数值传入到界面中text_water_power_fire_oilcan_65_result的TextView中，设置其内容
 		TextView text_water_power_fire_oilcan_80_result = (TextView) findViewById(R.id.text_water_power_fire_oilcan_80_result);
-		text_water_power_fire_oilcan_80_result.setText(df.format(water_power_fire_oilcan_80_result) + " mpa");
+		text_water_power_fire_oilcan_80_result.setText(df.format(water_power_fire_oilcan_80_result));
 						
 		
 	}
