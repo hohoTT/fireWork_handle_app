@@ -131,7 +131,7 @@ public class olican_fire_water extends Activity {
 						}
 						else{
 							// 获取不为数字类型的异常，以Toast的形式抛出给用户提示信息
-							Toast.makeText(olican_fire_water.this, "油罐的类型不可为空！",
+							Toast.makeText(olican_fire_water.this, "输入的油罐直径只能是数字",
 									Toast.LENGTH_SHORT).show();
 						}
 						

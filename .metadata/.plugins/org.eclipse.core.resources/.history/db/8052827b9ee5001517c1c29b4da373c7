@@ -129,11 +129,6 @@ public class olican_fire_water extends Activity {
 
 							startActivity(intent);
 						}
-						else{
-							// 获取不为数字类型的异常，以Toast的形式抛出给用户提示信息
-							Toast.makeText(olican_fire_water.this, "油罐的类型不可为空！",
-									Toast.LENGTH_SHORT).show();
-						}
 						
 					} catch (Exception e) {
 						// TODO: handle exception
